@@ -1,0 +1,24 @@
+{
+  "name": "ladder-client",
+  "version": "0.1.0",
+  "description": "Unofficial JavaScript client for the Ladder (JoinLadder) API.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "ladder",
+    "joinladder",
+    "fitness",
+    "workout",
+    "client",
+    "api"
+  ],
+  "scripts": {
+    "test": "node --test"
+  }
+}
